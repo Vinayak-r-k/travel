@@ -1,12 +1,12 @@
 .section1
 {
-    background-image: url(https://images.pexels.com/photos/38259971/pexels-photo-38259971.jpeg);
+    background-image: url(https://images.pexels.com/photos/39894311/pexels-photo-39894311.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     
 
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     
 
 }
@@ -86,11 +86,7 @@
     
 }
 
-.select a{
-    padding: 10px 20px;
-    
-    
-}
+
 .select:hover a{
     color: black;
     
@@ -106,6 +102,10 @@
 
 
 .select:hover .dropdown{
+
+    
+
+    
     border-radius: 20px;
     background-color: white;
     
@@ -114,16 +114,14 @@
 
     width: 300px;
 }
-.dropdown a{
-    padding:20px;
-    
-}
 .dropdown a:hover{
     display: block;
-    background-color: rgb(164, 225, 251);
-    color: rgb(40, 134, 201);
+    background-color: rgb(113, 212, 255);
+    color: rgb(12, 61, 240);
     width: 100%;
 }
+
+
 
 
 .section1 h4{
@@ -226,12 +224,63 @@ margin-top:30px ;
     background-color:rgb(186, 226, 255);
 }
 
-
 .section2{
 background-color: rgb(227, 226, 226);
 padding-top: 100px;
 
 padding-bottom: 250px;
+}
+.location{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.location svg{
+    color: rgb(25, 108, 216);
+    font-size: 20px;
+    align-content: center;
+    
+}
+.location h3{
+    color: grey;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 10px;
+    
+}
+.price{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.price h1{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(31, 140, 212);
+    width: 150px;
+    margin: 0%;
+    
+}
+.price h6{
+    align-content: center;
+    font-size: 20px;
+    color: gray;
+}
+.perks{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.perks svg{
+    color: rgb(136, 207, 31);
+}
+.perks h5{
+    color: grey;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.perk{
+    margin-bottom: 30px;
 }
 .cards{
     
@@ -266,19 +315,30 @@ padding-bottom: 250px;
     margin-bottom: 30px
 }
 .card h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 .card a{
+    
+    
+    
+    
+    display: block;
     text-decoration: none;
-    color: rgb(13, 73, 193);
-    font-size: 25px;
-    font-weight: bold;
-    padding-top: 30px;
-}
-.cardtext{
+    background-color: rgb(0, 93, 180);
+    color: white;
     
     padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    
+    text-align: center;
+
 }
+.cardtext{
+    padding: 30px;
+    
+}
+
 .card:hover{
     box-shadow: 3px 3px 10px gray;
     
@@ -286,8 +346,13 @@ padding-bottom: 250px;
     
     
 }
-.sec2title h3,h1{
+.sec2title h3,h1,p{
 text-align: center;
+}
+.sec2title p{
+    color: grey;
+    width: 1200px;
+    text-align: center;
 }
 .sec2title h3{
     color: rgb(3, 100, 170);
@@ -306,6 +371,79 @@ text-align: center;
     background-color: green;
     border-radius: 30px;
     padding: 10px 30px;
+}
+.section4{
+padding: 100px;
+}
+.section4 h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+.whys{
+    display: flex;
+    justify-content: center;
+}
+.why svg,h3,h4{
+    width: 100%;
+}
+.why{
+    width: 200px;
+    text-align: center;
+    margin-right: 100px;
+}
+.why svg{
+    color: rgb(80, 131, 226);
+    font-size: 60px;
+}
+.why h3{
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.why h4{
+    color: rgb(166, 157, 157);
+    font-size: 17px;
+}
+.section5{
+
+padding: 150px;
+background-color: rgb(241, 241, 241);
+}
+.section5 .image{
+    text-align: center;
+    padding: 150px;
+    background: linear-gradient(rgba(4, 4, 65, 0.869)),url(https://images.pexels.com/photos/10174372/pexels-photo-10174372.jpeg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+    
+    
+}
+.image h2{
+color: white;
+font-size: 60px;
+}
+.image h6{
+color: rgb(207, 207, 207);
+font-size: 20px;
+margin: 30px;
+}
+.image a{
+text-decoration: none;
+font-size: 30px;
+padding: 20px;
+display: inline-block;
+width: 250px;
+text-align: center;
+margin: 30px;
+margin-right: 40px;
+border-radius: 40px;
+background-color: rgb(226, 166, 12);
+color: black;
+font-weight: 700;
 }
 .section3{
     background-color: rgb(2, 77, 104);
