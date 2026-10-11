@@ -187,47 +187,7 @@ margin-top:30px ;
     width: 100%;
     
 }
-.buttons{
-    display: flex;
-    justify-content: center;
-    
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
-    
 
-}
-.buttons button{
-    
-    margin-right: 20px;
-    
-    
-    
-}
-.b1 button {
-    font-size: 22px;
-    padding: 20px 30px;
-    background-color: rgb(255, 208, 0);
-    border-radius: 40px;
-    
-}
-.b1 button:hover{
-    background-color: rgb(255, 255, 0);
-    
-}
-
-.b2 button{
-    border: 5px solid white;
-    background-color: transparent;
-    font-size: 25px;
-    color: white;
-    border-radius: 40px;
-    padding: 12px 30px;
-}
-.b2 button:hover{
-    background-color: white;
-    color: black;
-}
 .links a:hover{
     background-color: white;
     color: rgb(109, 24, 173);
@@ -254,9 +214,126 @@ margin-top:30px ;
 padding: 150px;
 background-color: rgb(241, 241, 241);
 }
+.sec2text h1{
+    color: rgb(137, 141, 146);
+    font-size: 40px;
+}
+.sec2text p{
+    display: block;
+    color: rgb(188, 187, 187);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.buttons{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+.buttons button{
+
+    border:  3px solid rgb(148, 148, 151);
+    color: rgb(116, 116, 117);
+    border-radius: 30px;
+    padding: 10px 30px;
+    
+    font-size: 15px;
+
+}
+.section2 .buttons button:hover{
+    color: white;
+    background-color: rgb(173, 181, 188);
+    border-color: rgb(173, 181, 188) ;
+    
+}
+.cards{
+    margin-top: 100px;
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+/* .maldives-cards ,.dubai-cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 40px;
+} */
+
+.cards .card{
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+
+}
+.card h1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+.card p{
+    display: block;
+    position: absolute;
+    color: white;
+    text-align: left;
+    bottom: 30px;
+    left: 60px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.maldives-cards,.adventure-cards,.dubai-cards,.switzerland-cards{
+
+ display: none;
+}
+.buttons:has(.maldives:active) .maldives-cards{
+   
+    display: grid;
+    
+}
+.buttons:has(.dubai:active) .dubai-cards{
+   
+    display: grid;
+}
+.buttons:has(.switzerland:active) .switzerland-cards{
+   
+    display: grid;
+}
+.buttons:has(.adventure:active) .adventure-cards{
+   
+    display: grid;
+}
+.buttons:has(.all:active) .maldives-cards{
+   
+    display: grid;
+}
+.buttons:has(.all:active) .dubai-cards{
+   
+    display: grid;
+}
+.buttons:has(.all:active) .switzerland-cards{
+   
+    display: grid;
+}
+.buttons:has(.all:active) .adventure-cards{
+   
+    display: grid;
+}
+
 .section2 .image{
     text-align: center;
-    padding: 50px;
+    padding: 20px 50px;
     background: linear-gradient(rgba(114, 154, 157, 0.764)),url(https://images.pexels.com/photos/10174372/pexels-photo-10174372.jpeg);
     height: 100%;
     background-size: cover;
@@ -264,7 +341,7 @@ background-color: rgb(241, 241, 241);
     border-radius: 30px;
     
     
-    
+
 }
 .image h2{
 color: white;
