@@ -1,42 +1,48 @@
+body{
+    
+}
+
 .section1
 {
-    background-image: url(https://images.pexels.com/photos/38259971/pexels-photo-38259971.jpeg);
+    background-image: url(https://images.pexels.com/photos/9096717/pexels-photo-9096717.jpeg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    width: 100%;
     
 
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 
 }
+
 .name{
     display: flex;
     align-items: center;
 }
 .name svg{
     color: rgb(255, 216, 45);
-    font-size: 50px;
+    font-size: 30px;
 }
 .title h1{
     display: flex;
     align-content: center;
-    padding: 10px;
+    padding: 5px;
     margin: 0%;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .title{
-    background-color: rgba(56, 56, 230, 0.853);
+    background-color: rgba(2, 81, 130, 0.944);
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
     
-    padding: 20px 200px;
+    padding: 10px 100px;
     position: fixed;
-    top: 0px;
+    top: 0%;
     width: 100%;
     margin-bottom: 400px;
     z-index: 100;
@@ -53,9 +59,9 @@
 .title a,button{
     color: white;
     text-decoration: none;
-    margin-right: 40px;
-    font-size: 30px;
-    padding: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
 
 }
 .title select{
@@ -73,6 +79,7 @@
 .links{
     display: flex;
 }
+
 .dropdown a{
     display: none;
 }
@@ -96,7 +103,7 @@
     
     background-color: white;
     
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
 
 }
@@ -131,26 +138,33 @@
     color: white;
 }
 .text{
-    width: 2000px;
+    width: 100%;
     
     margin: auto;
     
 }
+.text p{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
 
-.text h4,h1,p{
-width: 800px;
+}
+
+.text h4,h1{
+width:100%;
 margin: auto;
 text-align: center;
 margin-top:30px ;
 
 
 }
+
 .text h4{
     font-size: 20px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.116);
     border-radius: 30px;
-    width: 400px;
+    width: 20%;
     
 
 }
@@ -169,19 +183,19 @@ margin-top:30px ;
 .text h1{
     color: white;
     font-size: 120px;
-    width: 1000px;
+    width: 100%;
 }
 .text p{
     color: white;
     font-size: 35px;
-    width: 1200px;
+    width: 100%;
     
 }
 .buttons{
     display: flex;
     justify-content: center;
     
-    width: 2000px;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
     
@@ -191,19 +205,21 @@ margin-top:30px ;
     
     margin-right: 20px;
     
-    border-radius: 30px;
+    
     
 }
 .b1 button {
     font-size: 22px;
     padding: 20px 30px;
     background-color: rgb(255, 208, 0);
-    transition: 0.3s;
+    border-radius: 40px;
+    
 }
 .b1 button:hover{
     background-color: rgb(255, 255, 0);
     
 }
+
 .b2 button{
     border: 5px solid white;
     background-color: transparent;
@@ -216,12 +232,20 @@ margin-top:30px ;
     background-color: white;
     color: black;
 }
-.links a:hover,button:hover{
+.links a:hover{
     background-color: white;
     color: rgb(35, 118, 235);
     
     border-radius: 10px;
 }
+.links button:hover{
+    background-color: white;
+    color: rgb(35, 118, 235);
+    
+    border-radius: 10px;
+
+}
+
 .dropdown a:hover{
     background-color:rgb(186, 226, 255);
 }
@@ -231,7 +255,7 @@ margin-top:30px ;
 background-color: rgb(227, 226, 226);
 padding-top: 100px;
 
-padding-bottom: 250px;
+padding-bottom: 100px;
 }
 .cards{
     
@@ -246,7 +270,7 @@ padding-bottom: 250px;
 .card{
     position: relative;
     margin-right: 30px;
-    width: 500px;
+    width: 350px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     z-index: -100px;
@@ -254,24 +278,24 @@ padding-bottom: 250px;
 }
 .card img{
     width: 100%;
-    height: 400px;
+    height: 250px;
     border-radius: 20px 20px 0px 0px;
     
 }
 .card p{
     text-align: left;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     color: grey;
     margin-bottom: 30px
 }
 .card h2{
-    font-size: 40px;
+    font-size: 25px;
 }
 .card a{
     text-decoration: none;
     color: rgb(13, 73, 193);
-    font-size: 25px;
+    font-size: 17px;
     font-weight: bold;
     padding-top: 30px;
 }
@@ -309,15 +333,16 @@ text-align: center;
 }
 .section3{
     background-color: rgb(2, 77, 104);
-    padding-top: 100px;
-    overflow-x: hidden;
-    padding-bottom: 20px;
+    
+    padding: 10px 150px 10px 100px;
+    
+    width: 100%;
     
 
 }
 .one{
-    margin-left: 100px;
-    width: 1500px;
+
+width: 30%;
 }
 .one h1{
     margin-left: 0%;
@@ -325,21 +350,21 @@ text-align: center;
 .textt{
     display: flex;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
-.textt h1,p{
+.textt h1,.textt p{
     color: yellow;
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
     padding-top:10px ;
     margin-top: 0px;
 }
 .textt a{
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 15px;
 }
 .textt p{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     width: 100%;
 
@@ -357,7 +382,7 @@ text-align: center;
 }
 .icons svg{
     color: rgb(18, 110, 191);
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 20px;
     position: relative;
 }
@@ -372,10 +397,10 @@ text-align: center;
 
 }
 .rights{
-    width: 80%;
+    width: 100%;
     border-top:2px solid grey ;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 .rights p{

@@ -1,42 +1,44 @@
 .section1
 {
-    background-image: url(https://images.pexels.com/photos/39894311/pexels-photo-39894311.jpeg);
+    background-image: url(https://images.pexels.com/photos/11467016/pexels-photo-11467016.jpeg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    width: 100%;
     
 
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 
 }
+
 .name{
     display: flex;
     align-items: center;
 }
 .name svg{
     color: rgb(255, 216, 45);
-    font-size: 50px;
+    font-size: 30px;
 }
 .title h1{
     display: flex;
     align-content: center;
-    padding: 10px;
+    padding: 5px;
     margin: 0%;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .title{
-    background-color: rgba(56, 56, 230, 0.853);
+    background-color: rgba(85, 30, 145, 0.853);
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
     
-    padding: 20px 200px;
+    padding: 10px 100px;
     position: fixed;
-    top: 0px;
+    top: 0%;
     width: 100%;
     margin-bottom: 400px;
     z-index: 100;
@@ -53,9 +55,9 @@
 .title a,button{
     color: white;
     text-decoration: none;
-    margin-right: 40px;
-    font-size: 30px;
-    padding: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
 
 }
 .title select{
@@ -73,6 +75,7 @@
 .links{
     display: flex;
 }
+
 .dropdown a{
     display: none;
 }
@@ -86,13 +89,17 @@
     
 }
 
-
+.select a{
+    padding: 10px 20px;
+    
+    
+}
 .select:hover a{
     color: black;
     
     background-color: white;
     
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
 
 }
@@ -102,10 +109,6 @@
 
 
 .select:hover .dropdown{
-
-    
-
-    
     border-radius: 20px;
     background-color: white;
     
@@ -114,14 +117,16 @@
 
     width: 300px;
 }
+.dropdown a{
+    padding:20px;
+    
+}
 .dropdown a:hover{
     display: block;
-    background-color: rgb(113, 212, 255);
-    color: rgb(12, 61, 240);
+    background-color: rgb(164, 225, 251);
+    color: rgb(40, 134, 201);
     width: 100%;
 }
-
-
 
 
 .section1 h4{
@@ -129,26 +134,33 @@
     color: white;
 }
 .text{
-    width: 2000px;
+    width: 100%;
     
     margin: auto;
     
 }
+.text p{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
 
-.text h4,h1,p{
-width: 800px;
+}
+
+.text h4,h1{
+width:100%;
 margin: auto;
 text-align: center;
 margin-top:30px ;
 
 
 }
+
 .text h4{
     font-size: 20px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.116);
     border-radius: 30px;
-    width: 400px;
+    width: 20%;
     
 
 }
@@ -167,19 +179,19 @@ margin-top:30px ;
 .text h1{
     color: white;
     font-size: 120px;
-    width: 1000px;
+    width: 100%;
 }
 .text p{
     color: white;
     font-size: 35px;
-    width: 1200px;
+    width: 100%;
     
 }
 .buttons{
     display: flex;
     justify-content: center;
     
-    width: 2000px;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
     
@@ -189,19 +201,21 @@ margin-top:30px ;
     
     margin-right: 20px;
     
-    border-radius: 30px;
+    
     
 }
 .b1 button {
     font-size: 22px;
     padding: 20px 30px;
     background-color: rgb(255, 208, 0);
-    transition: 0.3s;
+    border-radius: 40px;
+    
 }
 .b1 button:hover{
     background-color: rgb(255, 255, 0);
     
 }
+
 .b2 button{
     border: 5px solid white;
     background-color: transparent;
@@ -214,21 +228,32 @@ margin-top:30px ;
     background-color: white;
     color: black;
 }
-.links a:hover,button:hover{
+.links a:hover{
     background-color: white;
-    color: rgb(35, 118, 235);
+    color: rgb(109, 24, 173);
     
     border-radius: 10px;
 }
-.dropdown a:hover{
-    background-color:rgb(186, 226, 255);
+.links button:hover{
+    background-color: white;
+    color: rgb(109, 24, 173);
+    
+    border-radius: 10px;
+
 }
+
+.dropdown a:hover{
+    background-color:rgba(197, 128, 236, 0.192);
+}
+
+
 
 .section2{
 background-color: rgb(227, 226, 226);
 padding-top: 100px;
 
 padding-bottom: 250px;
+width: 100%;
 }
 .location{
     display: flex;
@@ -236,7 +261,7 @@ padding-bottom: 250px;
     
 }
 .location svg{
-    color: rgb(25, 108, 216);
+    color: rgb(217, 137, 248);
     font-size: 20px;
     align-content: center;
     
@@ -256,7 +281,7 @@ padding-bottom: 250px;
 .price h1{
     text-align: left;
     font-size: 40px;
-    color: rgb(31, 140, 212);
+    color: rgb(182, 60, 231);
     width: 150px;
     margin: 0%;
     
@@ -295,7 +320,7 @@ padding-bottom: 250px;
 .card{
     position: relative;
     margin-right: 30px;
-    width: 500px;
+    width: 25%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     z-index: -100px;
@@ -324,7 +349,7 @@ padding-bottom: 250px;
     
     display: block;
     text-decoration: none;
-    background-color: rgb(0, 93, 180);
+    background-color: rgb(111, 31, 146);
     color: white;
     
     padding: 20px;
@@ -351,11 +376,11 @@ text-align: center;
 }
 .sec2title p{
     color: grey;
-    width: 1200px;
+    width: 100%;
     text-align: center;
 }
 .sec2title h3{
-    color: rgb(3, 100, 170);
+    color: rgb(162, 55, 205);
     font-size: 25px;
 
 }
@@ -393,7 +418,7 @@ padding: 100px;
     margin-right: 100px;
 }
 .why svg{
-    color: rgb(80, 131, 226);
+    color: rgb(115, 70, 188);
     font-size: 60px;
 }
 .why h3{
@@ -412,8 +437,8 @@ background-color: rgb(241, 241, 241);
 }
 .section5 .image{
     text-align: center;
-    padding: 150px;
-    background: linear-gradient(rgba(4, 4, 65, 0.869)),url(https://images.pexels.com/photos/10174372/pexels-photo-10174372.jpeg);
+    padding: 50px;
+    background: linear-gradient(rgba(57, 14, 117, 0.676)),url(https://images.pexels.com/photos/10174372/pexels-photo-10174372.jpeg);
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -446,16 +471,17 @@ color: black;
 font-weight: 700;
 }
 .section3{
-    background-color: rgb(2, 77, 104);
-    padding-top: 100px;
-    overflow-x: hidden;
-    padding-bottom: 20px;
+    background-color: rgb(44, 8, 65);
+    
+    padding: 10px 150px 10px 100px;
+    
+    width: 100%;
     
 
 }
 .one{
-    margin-left: 100px;
-    width: 1500px;
+
+width: 30%;
 }
 .one h1{
     margin-left: 0%;
@@ -463,21 +489,21 @@ font-weight: 700;
 .textt{
     display: flex;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
-.textt h1,p{
+.textt h1,.textt p{
     color: yellow;
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
     padding-top:10px ;
     margin-top: 0px;
 }
 .textt a{
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 15px;
 }
 .textt p{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     width: 100%;
 
@@ -495,7 +521,7 @@ font-weight: 700;
 }
 .icons svg{
     color: rgb(18, 110, 191);
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 20px;
     position: relative;
 }
@@ -510,10 +536,10 @@ font-weight: 700;
 
 }
 .rights{
-    width: 80%;
+    width: 100%;
     border-top:2px solid grey ;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 .rights p{

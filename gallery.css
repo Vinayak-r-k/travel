@@ -1,0 +1,402 @@
+.section1
+{
+    background-image: url(https://images.pexels.com/photos/629167/pexels-photo-629167.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.name svg{
+    color: rgb(255, 216, 45);
+    font-size: 30px;
+}
+.title h1{
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    margin: 0%;
+    color: white;
+    font-size: 30px;
+}
+
+.title{
+    background-color: rgba(122, 169, 180, 0.853);
+    
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+    padding: 10px 100px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-bottom: 400px;
+    z-index: 100;
+    
+    
+}
+
+*{
+    border: none;
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.title a,button{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.title select{
+    background-color: transparent;
+    color: white;
+ 
+    
+}
+.select button{
+    background: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.links{
+    display: flex;
+}
+
+.dropdown a{
+    display: none;
+}
+.select button{
+    display: flex;
+    
+}
+.select img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.select a{
+    padding: 10px 20px;
+    
+    
+}
+.select:hover a{
+    color: black;
+    
+    background-color: white;
+    
+    border-radius: 10px;
+    display: flex;
+
+}
+.select:hover{
+    position: relative;
+}
+
+
+.select:hover .dropdown{
+    border-radius: 20px;
+    background-color: white;
+    
+    position:absolute;
+    left: -10%;
+
+    width: 300px;
+}
+.dropdown a{
+    padding:20px;
+    
+}
+.dropdown a:hover{
+    display: block;
+    background-color: rgb(164, 225, 251);
+    color: rgb(40, 134, 201);
+    width: 100%;
+}
+
+
+.section1 h4{
+    
+    color: white;
+}
+.text{
+    width: 100%;
+    
+    margin: auto;
+    
+}
+.text p{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+
+}
+
+.text h4,h1{
+width:100%;
+margin: auto;
+text-align: center;
+margin-top:30px ;
+
+
+}
+
+.text h4{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 30px;
+    width: 20%;
+    
+
+}
+.text h6{
+    position:absolute;
+    top: 150px;
+    right: 100px;
+    background-color: rgb(239, 54, 13);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.463);
+
+}
+.text h1{
+    color: white;
+    font-size: 120px;
+    width: 100%;
+}
+.text p{
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    
+
+}
+.buttons button{
+    
+    margin-right: 20px;
+    
+    
+    
+}
+.b1 button {
+    font-size: 22px;
+    padding: 20px 30px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 40px;
+    
+}
+.b1 button:hover{
+    background-color: rgb(255, 255, 0);
+    
+}
+
+.b2 button{
+    border: 5px solid white;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    border-radius: 40px;
+    padding: 12px 30px;
+}
+.b2 button:hover{
+    background-color: white;
+    color: black;
+}
+.links a:hover{
+    background-color: white;
+    color: rgb(109, 24, 173);
+    
+    border-radius: 10px;
+}
+.links button:hover{
+    background-color: white;
+    color: rgb(109, 24, 173);
+    
+    border-radius: 10px;
+
+}
+
+.dropdown a:hover{
+    background-color:rgba(197, 128, 236, 0.192);
+}
+
+
+
+
+.section2{
+
+padding: 150px;
+background-color: rgb(241, 241, 241);
+}
+.section2 .image{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(114, 154, 157, 0.764)),url(https://images.pexels.com/photos/10174372/pexels-photo-10174372.jpeg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+    
+    
+}
+.image h2{
+color: white;
+font-size: 60px;
+}
+.image h6{
+color: rgb(207, 207, 207);
+font-size: 20px;
+margin: 30px;
+}
+.image a{
+text-decoration: none;
+font-size: 20px;
+padding: 10px;
+display: inline-block;
+width: 200px;
+text-align: center;
+margin: 30px;
+margin-right: 40px;
+border-radius: 40px;
+background-color: rgb(226, 166, 12);
+color: black;
+font-weight: 700;
+}
+.section3{
+    background-color: rgb(73, 111, 113);
+    
+    padding: 10px 150px 10px 100px;
+    
+    width: 100%;
+    
+
+}
+.one{
+
+width: 30%;
+}
+.one h1{
+    margin-left: 0%;
+}
+.textt{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.textt h1,.textt p{
+    color: yellow;
+    font-size: 25px;
+    text-align: left;
+    padding-top:10px ;
+    margin-top: 0px;
+}
+.textt a{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.textt p{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+
+}
+
+.linkss a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.one,.two,.three{
+    width: fit-content;
+    
+}
+.icons svg{
+    color: rgb(18, 110, 191);
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+.icons svg:hover{
+    color: yellow;
+    bottom: 5px;
+}
+
+.two{
+    width:600px;
+    margin-left: 100px;
+
+}
+.rights{
+    width: 100%;
+    border-top:2px solid grey ;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.rights p{
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(191, 190, 190);
+}
+.float {
+    position:fixed;
+    bottom: 5%;
+    right: 1%;
+}
+.float svg{
+    font-size: 30px;
+    
+    
+}
+.whatsapp{
+    background-color:rgb(0, 185, 0) ;
+    z-index: -1px;
+    border-radius: 100%;
+}
+.whatsapp svg{
+    color: rgb(255, 255, 255);
+    z-index:  10px;
+    padding: 15px ;
+    
+}
+.phone svg{
+    color: white;
+    background-color: rgb(28, 103, 195);
+    padding: 15px;
+    border-radius: 100%;
+    margin-top:20px ;
+}
+html{
+    scroll-behavior: smooth;
+}

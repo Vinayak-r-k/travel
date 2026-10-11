@@ -1,0 +1,413 @@
+.section1
+{
+    background-image: url(https://images.pexels.com/photos/37898606/pexels-photo-37898606.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.name svg{
+    color: rgb(255, 216, 45);
+    font-size: 30px;
+}
+.title h1{
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    margin: 0%;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.title{
+    background-color: rgba(56, 56, 230, 0.853);
+    
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+    padding: 10px 100px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-bottom: 400px;
+    z-index: 100;
+    
+    
+}
+
+*{
+    border: none;
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.title a,button{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.title select{
+    background-color: transparent;
+    color: white;
+ 
+    
+}
+.select button{
+    background: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.links{
+    display: flex;
+}
+.dropdown a{
+    display: none;
+}
+.select button{
+    display: flex;
+    
+}
+.select img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+.select:hover a{
+    color: black;
+    
+    background-color: white;
+    
+    border-radius: 5px;
+    display: flex;
+
+}
+.select:hover{
+    position: relative;
+}
+
+
+.select:hover .dropdown{
+
+    
+
+    
+    border-radius: 20px;
+    background-color: white;
+    
+    position:absolute;
+    left: -10%;
+
+    width: 100%;
+}
+.dropdown a:hover{
+    display: block;
+    background-color: rgb(113, 212, 255);
+    color: rgb(12, 61, 240);
+    width: 100%;
+}
+
+
+
+    
+.text{
+    width: 100%;
+    
+    margin: auto;
+    
+}
+
+.text h1,.text p{
+width: 100%;
+margin: auto;
+text-align: center;
+margin-top:30px ;
+
+
+}
+
+.text h1{
+    margin-top: 7%;
+    color: white;
+    font-size: 50px;
+    width: 100%;
+}
+.text p{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    
+}
+
+
+
+.links a:hover{
+    background-color: white;
+    color: rgb(35, 118, 235);
+    
+    border-radius: 10px;
+}
+.links button:hover{
+    background-color: white;
+    color: rgb(35, 118, 235);
+    
+    border-radius: 10px;
+
+}
+.dropdown a:hover{
+    background-color:rgb(186, 226, 255);
+}
+.section2{
+    padding: 50px 100px;
+    background-color: aliceblue;
+}
+.both{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    padding-left: 20%;
+
+}
+.left h1{
+    color: navy;
+}
+.left p{
+    color: grey;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.detail{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.detail h5{
+    font-size: 18px;
+
+}
+.detail h6{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    color: grey;
+}
+.left svg{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(178, 252, 255);
+    margin-right: 30px;
+}
+
+.right{
+    width: 50%;
+}
+.right h2{
+    color: navy ;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.right form{
+    padding: 40px;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(181, 181, 181, 0.654);
+    border-radius: 20px;
+}
+.right label{
+    font-weight: 900;
+    margin-bottom: 10px;
+    display: block;
+}
+.half{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+.lhalf{
+    width: 47%;
+    
+}
+.rhalf{
+    width: 47%;
+    
+    
+}
+.half label{
+    display: inline-block;
+    width: 50%;
+    
+}
+.rhalf input{
+
+}
+.half input,.half select{
+    display: block;
+    width: 100%;
+}
+.full{
+    margin-bottom: 20px;
+}
+
+.full label,.full input,.full textarea{
+    width: 100%;
+}
+input,select,textarea{
+    border: 1px solid rgb(210, 210, 210);
+    padding: 15px;
+    border-radius: 10px;
+}
+.right textarea{
+    height: 150px;
+}
+.right button {
+    background-color: rgb(14, 84, 188);
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.both{
+    margin-bottom: 100px;
+}
+.help
+{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(8, 62, 143);
+    text-align: center;
+    padding: 70px 0px;
+    border-radius: 20px;
+}
+.help h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    
+}
+.help p{
+    color: white;
+    margin: 20px 0px;
+}
+.help button{
+    background-color: rgb(253, 214, 19);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+
+
+.section3{
+    background-color: rgb(2, 77, 104);
+    
+    padding: 10px 150px 10px 100px;
+    
+    width: 100%;
+    
+
+}
+.one{
+
+width: 30%;
+}
+.one h1{
+    margin-left: 0%;
+}
+.textt{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.textt h1,.textt p{
+    color: yellow;
+    font-size: 25px;
+    text-align: left;
+    padding-top:10px ;
+    margin-top: 0px;
+}
+.textt a{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.textt p{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+
+}
+
+.linkss a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.one,.two,.three{
+    width: fit-content;
+    
+}
+.icons svg{
+    color: rgb(18, 110, 191);
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+.icons svg:hover{
+    color: yellow;
+    bottom: 5px;
+}
+
+.two{
+    width:600px;
+    margin-left: 100px;
+
+}
+.rights{
+    width: 80%;
+    border-top:2px solid grey ;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.rights p{
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(191, 190, 190);
+}
+
+html{
+    scroll-behavior: smooth;
+}
